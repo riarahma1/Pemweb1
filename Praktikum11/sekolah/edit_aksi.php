@@ -6,7 +6,7 @@ $nama = $_POST['nama'];
 $nim = $_POST['nim'];
 $alamat = $_POST['alamat'];
 
-mysqli_query($koneksi, "update siswa set nama='$nama', nim='$nim', alamat='$alamat' where id='$id'");
+mysqli_query($koneksi, "UPDATE siswa set nama='$nama', nim='$nim', alamat='$alamat' where id='$id'");
 header("location: index.php");
 
 ?>
