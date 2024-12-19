@@ -1,0 +1,55 @@
+body {
+  background-color: #040d3f;
+}
+.container {
+  width: 800px;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+}
+.header {
+  padding: 10px;
+}
+.logo-title {
+  display: flex;
+  align-items: center;
+}
+.Logo {
+  width: 50px;
+  height: auto;
+  margin-right: 20px;
+}
+.header h1 {
+  font-size: 40px;
+  margin: 0;
+}
+.header h4 {
+  font-size: 25px;
+  margin-left: 25px;
+}
+.header ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.cover {
+  height: 300px;
+  background-image: url(https://www.creativefabrica.com/wp-content/uploads/2023/05/11/Modern-colourful-abstract-background-Graphics-69439498-1.jpg);
+}
+.content h1 {
+  font-size: 30px;
+  margin-left: 50px;
+}
+.content h4 {
+  margin-left: 20px;
+}
+.content p {
+  margin-left: 20px;
+}
+.footer {
+  background-color: rgb(164, 72, 30);
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+}
+.footer p {
+  font-size: 18px;
+}

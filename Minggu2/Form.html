@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Belajar Form</title>
+  </head>
+  <body>
+    <form action="formulir.html" method="get">
+      Nama: <input type="text" name="nama" value="Nama Anda" />
+      <br />
+      Password: <input type="password" name="password" />
+      <br />
+
+      Jenis Kelamin:
+      <input type="radio" name="jenis_kelamin" value="laki-laki" checked />
+      Laki-laki
+      <input type="radio" name="jenis_kelamin" value="perempuan" />
+      Perempuan
+      <br />
+
+      Hobi:
+      <input type="checkbox" name="hobi_baca" /> Membaca Buku <input type="checkbox" name="hobi_ngambar" checked /> Menggambar <input type="checkbox" name="hobi_mancing" /> Memancing
+      <br />
+
+      Asal Kota:
+      <select name="asal_kota">
+        <option value="Kota Jakarta">Jakarta</option>
+        <option value="Kota Surabaya">Surabaya</option>
+        <option value="Kota Semarang">Semarang</option>
+      </select>
+      <br />
+      Komentar Anda:
+      <textarea name="komentar" rows="10" cols="30">
+                Sekarang Hari Minggu
+            </textarea
+      >
+      <br />
+
+      <input type="submit" value="Mulai Proses!" />
+    </form>
+  </body>
+</html>

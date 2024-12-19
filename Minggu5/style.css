@@ -1,0 +1,84 @@
+body {
+  background-color: #040d3f;
+}
+.container {
+  width: 800px;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+}
+.header {
+  padding: 10px;
+  border-bottom: 2px solid #333;
+}
+.header h1 {
+  font-size: 40px;
+  margin: 0;
+}
+.header h4 {
+  font-size: 25px;
+  margin-left: 25px;
+}
+.navbar {
+  border: 2px solid #000;
+  display: inline-block;
+  padding: 5px;
+  margin-top: 10px;
+  text-align: center;
+  border-bottom: 2px solid #333;
+}
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+.navbar ul li {
+  margin: 0;
+}
+.navbar ul li a {
+  text-decoration: none;
+  padding: 5px 10px;
+  display: block;
+}
+.cover {
+  height: 200px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://www.creativefabrica.com/wp-content/uploads/2023/05/11/Modern-colourful-abstract-background-Graphics-69439498-1.jpg);
+}
+.row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.content {
+  display: flex;
+  border-bottom: 1px solid #333;
+}
+.main-content {
+  flex: 2;
+  width: 60%;
+  height: 200px;
+  padding: 20px;
+  border: 1px solid #333;
+}
+.sidebar {
+  flex: 1;
+  width: 40%;
+  height: 200px;
+  padding: 20px;
+  border: 1px solid #333;
+}
+.footer {
+  padding: 5px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  color: rgb(0, 0, 0);
+  border-top: 1px solid #333;
+}
+.footer p {
+  font-size: 14px;
+}
